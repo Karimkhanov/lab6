@@ -1,0 +1,41 @@
+.wrapper {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.wrapper-title button {
+  position: absolute;
+  left: 25%;
+}
+
+.wrapper-info {
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.wrapper-info-photos {
+  width: 50%;
+  padding-top: 30px;
+}
+
+.wrapper-info-photos-photo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.wrapper-info-photos-photo h3 {
+  padding-left: 20px;
+}

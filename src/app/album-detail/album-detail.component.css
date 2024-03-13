@@ -1,0 +1,49 @@
+.wrapper {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.wrapper-title button {
+  position: absolute;
+  left: 25%;
+}
+
+.wrapper-info {
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.wrapper-info-edit {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper-info-btns {
+  width: 200px;
+}
+
+.wrapper-info-btns button {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.wrapper-info input {
+  padding: 10px;
+}
+
+.wrapper-info-photos {
+  padding-top: 50px;
+}
